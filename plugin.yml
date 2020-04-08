@@ -1,1 +1,15 @@
 
+name: CERemove
+version: 1.0.4
+api: 3.0.0
+main: Ceremove\Main
+author: Bronzehail
+
+commands:
+  ceremove:
+    description: "remove an enchant"
+permissions:
+  ceremove.commands:
+    description: "/ceremove command permission"
+    default: op
+  
